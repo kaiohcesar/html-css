@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(0, 0, 0, 0.616);
+}
+body >header{
+    background-image: linear-gradient(to right,black, rgba(255, 255, 255, 0.425));
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+body > header > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 20px;
+}
+
+main  {
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+main > ul {
+    list-style: none;
+}
+
+main > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+main > ul > li > a:hover {
+    color: rgba(0, 183, 255, 0.144);
+    text-decoration: underline;
+}
+
+aside {
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: -303px;
+    margin-left: 400px;
+    text-align: center;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+aside > h1 {
+    padding: 10px;
+}
+
+aside > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;        
+}
+
+aside > p > a:hover {
+    background-color: rgba(0, 0, 0, 0.616);
+    text-decoration: underline;
+}
+
+aside > a > img {
+    margin: auto;
+    display: block;
+    width: 100px;
+}
