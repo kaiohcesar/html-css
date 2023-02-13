@@ -1,8 +1,15 @@
 body {
+    background-color: black;
+    height: 98vh;
     background-image: url(images/escuro-fundo-site.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
 }
 body >header{
-    background-image: url();
+    position: absolute;
     background-image: linear-gradient(to right,black, rgba(255, 255, 255, 0.425));
     text-align: center;
     color: white;
@@ -12,20 +19,43 @@ body >header{
 body > header > p {
     margin: 15px 0px;
     text-align: justify;
-    text-indent: 10px;
-    font-size: 1em;
+    text-indent: 20px;
+    font-size: 1.8em;
     line-height: 2em;
     padding: 20px;
 }
 
 div.quadrado {
-    margin: 20px;
     display: inline-block;
     border: 2px solid black; 
     border-radius: 10px;
     background-color: lightgray;
-    width: 300px;
-    height: 300px;
+    padding: 10px;
+
+}
+
+#q1 {
+    position: relative;
+    top: 10%;
+
+    
+}
+
+#q2 {
+    position: relative;
+
+    right: -30%;
+}
+
+footer {
+    position: relative;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+
+    bottom: -100%;
+
 }
 
 
