@@ -1,13 +1,14 @@
 body {
-    background-color: black;
+    background-color: rgb(136, 134, 134);
     height: 98vh;
-    background-image: url(images/escuro-fundo-site.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     padding: 20px;
 }
+<<<<<<< HEAD
 body >header{
     background-image: linear-gradient(to right,black, rgba(255, 255, 255, 0.425));
     text-align: center;
@@ -25,9 +26,39 @@ body > header > p {
     text-align: justify;
     text-indent: 20px;    
     line-height: 2em;
-    padding: 20px;
+=======
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    padding: 5px;
 }
 
+a:hover {
+    font-weight: lighter;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.cabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
+    text-align: center;
+    color: rgb(0, 0, 0);
+>>>>>>> 62a0ce4f947987c4d96498502ea443f5771938da
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+<<<<<<< HEAD
 header > img {
     max-width: 200px;
     min-width: 100px;
@@ -55,6 +86,56 @@ footer {
     border: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+=======
+.cabecalho > img {
+    max-width: 200px;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 10px ;
+    border-radius: 20px;
+    column-gap: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+#social {
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+#git{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
+    margin: 10px;
+    border-radius: 5px;    
+    padding: 1px;
+}
+
+.rodape > p {
+    margin: 0px;
+    text-align: center;
+
+>>>>>>> 62a0ce4f947987c4d96498502ea443f5771938da
 }
 
 
