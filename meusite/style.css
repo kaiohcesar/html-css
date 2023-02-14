@@ -1,60 +1,90 @@
 body {
-    background-color: black;
+    background-color: rgb(136, 134, 134);
     height: 98vh;
-    background-image: url(images/escuro-fundo-site.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     padding: 20px;
 }
-body >header{
-    position: absolute;
-    background-image: linear-gradient(to right,black, rgba(255, 255, 255, 0.425));
-    text-align: center;
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
     color: white;
-    padding: 10px;
+    margin: 0px 10px;
+    padding: 5px;
 }
 
-body > header > p {
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 20px;
-    font-size: 1.8em;
-    line-height: 2em;
+a:hover {
+    font-weight: lighter;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.cabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
+    text-align: center;
+    color: rgb(0, 0, 0);
     padding: 20px;
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
 }
 
-div.quadrado {
-    display: inline-block;
-    border: 2px solid black; 
-    border-radius: 10px;
-    background-color: lightgray;
+.cabecalho > img {
+    max-width: 200px;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 10px ;
+    border-radius: 20px;
+    column-gap: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+#social {
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
+    border-radius: 20px;
     padding: 10px;
-
-}
-
-#q1 {
-    position: relative;
-    top: 10%;
-
     
 }
 
-#q2 {
-    position: relative;
-
-    right: -30%;
+#git{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
 }
 
-footer {
-    position: relative;
-    background-color: antiquewhite;
-    padding: 10px;
+.rodape {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
     margin: 10px;
-    border: 10px;
+    border-radius: 5px;    
+    padding: 1px;
+}
 
-    bottom: -100%;
+.rodape > p {
+    margin: 0px;
+    text-align: center;
 
 }
 
