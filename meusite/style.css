@@ -8,25 +8,22 @@ body {
     background-position: center center;
     padding: 20px;
 }
-<<<<<<< HEAD
-body >header{
-    background-image: linear-gradient(to right,black, rgba(255, 255, 255, 0.425));
+
+.cabecalho{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,rgba(241, 241, 241, 0.411), rgba(255, 255, 255, 0.425));
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
     margin: 10px;
-    border: 2px solid black; 
+    border: 2px  rgba(0, 0, 0, 0.349); 
     border-radius: 20px;
 }
 
-body > header > p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 20px;    
-    line-height: 2em;
-=======
+.cabecalho > img {
+    max-width: 200px;
+}
+
 
 a {
     font-weight: bolder;
@@ -42,53 +39,6 @@ a:hover {
     color: black;
     padding: 5px;
     border-radius: 5px;
-
-}
-
-.cabecalho {
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
-    text-align: center;
-    color: rgb(0, 0, 0);
->>>>>>> 62a0ce4f947987c4d96498502ea443f5771938da
-    padding: 20px;
-    margin: 20px;
-    border: 2px solid gray;
-    border-radius: 20px;
-}
-
-<<<<<<< HEAD
-header > img {
-    max-width: 200px;
-    min-width: 100px;
-}
-
-div.quadrado {
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    border: 2px solid black; 
-    border-radius: 10px;
-    background-color: grey;
-    padding: 10px;
-    color: white;
-    margin: 10px;
-    height: 300px;
-    width: 300px;
-
-}
-
-footer {
-    background-color: lightgrey;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 2px;
-    margin: 10px;
-    border: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-=======
-.cabecalho > img {
-    max-width: 200px;
 }
 
 .container {
@@ -110,14 +60,14 @@ ul {
 }
 
 #social {
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.295), rgba(255, 255, 255, 0.425));
     border-radius: 20px;
     padding: 10px;
     
 }
 
 #git{
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.295), rgba(255, 255, 255, 0.425));
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.295), rgba(255, 255, 255, 0.425));
     border-radius: 20px;
     padding: 10px;
     text-align: center;
@@ -134,8 +84,6 @@ ul {
 .rodape > p {
     margin: 0px;
     text-align: center;
-
->>>>>>> 62a0ce4f947987c4d96498502ea443f5771938da
 }
 
 
