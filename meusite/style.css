@@ -79,19 +79,22 @@ ul {
 }
 
 #social {
-    max-width: 100%;
     background-color:rgba(202, 218, 53, 0.041);
     color: black;    
     border-radius: 10px;
     padding: 10px;
-    margin: 5px;    
+    margin: 5px; 
+    max-width: 350px;   
+}
+
+#social > ul {
+    padding: 5px;
 }
 
 #social:hover {
     background-color: #cada35;
     color: black;    
     border-radius: 10px;
-    padding: 10px;  
 }
 
 .skills {
@@ -100,8 +103,8 @@ ul {
     background-color:rgba(202, 218, 53, 0.041);
     color: black;    
     border-radius: 10px;
-    padding: 10px;
-    width: 300px;
+    padding: 10px 12px;
+    max-width: 350px;
     margin: 5px;  
 }
 
