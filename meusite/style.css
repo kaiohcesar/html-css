@@ -25,6 +25,7 @@ body {
     border-radius: 10px;
     display: inline;
     color: white;
+    font-weight: bolder;
 }
 
 .menu > ul > li:hover {
