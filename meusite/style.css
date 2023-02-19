@@ -7,15 +7,21 @@ body {
     
 }
 
+.menu{
+    margin: 0px 0px 0px 0px;
+}
+
 .menu > ul {
-    margin: 0px;
+    display: flex;
+    justify-content: space-around;   
     padding: 10px 10px 40px 10px;
+    flex-wrap: wrap;
 }
 
 .menu > ul > li {   
     background-color: rgba(202, 218, 53, 0.041);
     padding: 10px; 
-    margin: 10px 40px;
+    margin: 10px 20px;
     border-radius: 10px;
     display: inline;
     color: white;
@@ -51,6 +57,10 @@ a:hover {
     border-radius: 5px;
 }
 
+.logo > img {
+    max-width: 100%;
+}
+
 .containermain {
     background-color: rgba(202, 218, 53, 0.041);
     font-family: Arial, Helvetica, sans-serif;
@@ -68,10 +78,12 @@ ul {
 }
 
 #social {
+    max-width: 100%;
     background-color:rgba(202, 218, 53, 0.041);
     color: black;    
     border-radius: 10px;
-    padding: 10px;    
+    padding: 10px;
+    margin: 5px;    
 }
 
 #social:hover {
@@ -89,6 +101,7 @@ ul {
     border-radius: 10px;
     padding: 10px;
     width: 300px;
+    margin: 5px;  
 }
 
 .skills > h1 {
