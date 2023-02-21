@@ -8,7 +8,7 @@ body {
 }
 
 .menu {
-    background-color: rgba(202, 218, 53, 0.041);
+    background-color: rgba(202, 218, 53, 0.589);
 }
 
 /* Adcionar um caminho nas opçoes do menu
@@ -23,10 +23,8 @@ body {
 
 .menu > ul > li {   
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(202, 218, 53, 0.041);
     padding: 10px; 
     margin: 10px 20px;
-    border-radius: 10px;
     display: inline;
     color: black;
     font-weight: bolder;
@@ -34,7 +32,8 @@ body {
 
 .menu > ul > li:hover {
     padding: 10px;
-    background-color: rgba(255, 255, 0, 0.856);
+    color: yellow;
+    background-color:black;
     border-radius: 10px;
 }
 
@@ -66,7 +65,7 @@ a:hover {
 }
 
 .containermain {
-    background-color: rgba(202, 218, 53, 0.041);
+    background-color: rgba(202, 218, 53, 0.589);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-around;
@@ -82,7 +81,7 @@ ul {
 }
 
 #social {
-    background-color:rgba(202, 218, 53, 0.041);
+    background-color:rgba(202, 218, 53, 0.884);
     color: black;    
     border-radius: 10px;
     padding: 10px;
@@ -103,7 +102,7 @@ ul {
 .skills {
     text-align: center;
     font-size: 1.3EM;
-    background-color:rgba(202, 218, 53, 0.041);
+    background-color:rgba(202, 218, 53, 0.884);
     color: black;    
     border-radius: 10px;
     padding: 10px 12px;
