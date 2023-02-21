@@ -11,6 +11,9 @@ body {
     background-color: rgba(202, 218, 53, 0.041);
 }
 
+/* Adcionar um caminho nas opçoes do menu
+*/
+
 .menu > ul {
     display: flex;
     justify-content: space-evenly;   
