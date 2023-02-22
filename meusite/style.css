@@ -1,9 +1,10 @@
 body {
     background-color: rgb(2, 2, 2);
+    margin: 0px;
 }
 
 .containerheader {
-    text-align: center;    
+    text-align: center;  
 }
 
 .menu {
@@ -16,6 +17,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
+    margin: 0px;
 }
 
 .menu > ul > li {
@@ -42,12 +44,6 @@ body {
     font-weight: bolder;
 }
 
-
-.containerheader{
-    padding-bottom: 15px;
-}
-
-
 #social > ul > li > a {
     font-weight: bolder;
     text-decoration: none;
@@ -68,6 +64,7 @@ body {
 
 .logo > img {
     max-width: 100%;
+    margin: 10px;
 }
 
 .containermain {
