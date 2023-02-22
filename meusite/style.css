@@ -3,46 +3,52 @@ body {
 }
 
 .containerheader {
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .menu {
     background-color: rgba(202, 218, 53, 0.589);
 }
 
-/* Adcionar um caminho nas opçoes do menu
-*/
-
 .menu > ul {
-    display: flex;
-    justify-content: space-evenly;   
-    padding: 10px 10px 30px 10px;
+    display: flex;   
+    padding: 10px 10px 10px 10px;
     flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
 }
 
-.menu > ul > li {   
+.menu > ul > li {
+    padding: 5px;    
+    border-radius: 5px;
+    margin: 10px 10px;  
+}
+
+.menu > ul > li > a {    
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px; 
-    margin: 10px 20px;
-    display: inline;
+    padding: 12px;
     color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.menu > ul > li > a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    color: yellow;
     font-weight: bolder;
 }
 
-.menu > ul > li:hover {
-    padding: 10px;
-    color: yellow;
-    background-color:black;
-    border-radius: 10px;
-}
 
 .containerheader{
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 
-a {
+#social > ul > li > a {
     font-weight: bolder;
     text-decoration: none;
     color: black;
@@ -51,7 +57,7 @@ a {
     border-radius: 5px;
 }
 
-a:hover {
+#social > ul > li > a:hover {
     font-weight: bolder;
     background-color: black;
     color: yellow;
@@ -72,12 +78,8 @@ a:hover {
     flex-wrap: wrap;
 }
 
-h2 {
+.containermain > #social > h2 {
     text-align: center;
-}
-
-ul {
-    list-style: none;
 }
 
 #social {
@@ -91,6 +93,7 @@ ul {
 
 #social > ul {
     padding: 5px;
+    list-style: none;
 }
 
 #social:hover {
@@ -101,7 +104,6 @@ ul {
 
 .skills {
     text-align: center;
-    font-size: 1.3EM;
     background-color:rgba(202, 218, 53, 0.884);
     color: black;    
     border-radius: 10px;
@@ -110,20 +112,21 @@ ul {
     margin: 5px;  
 }
 
-.skills > h1 {
+.skills > h2 {
     margin: 20px;
 }
 
-.skills > img {
-    filter: brightness(30%);
+.skills > a > img {
+    filter: brightness(50%);
     max-width: 100px;
 }
+
 
 .skills:hover {
     background-color: rgb(201, 218, 53);
 }
 
-.skills > img:hover {
+.skills > a > img:hover {
     filter: brightness(100%);
 }
 
@@ -131,7 +134,7 @@ ul {
 .rodape {
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(0, 0, 0);
-    background-color: rgba(202, 218, 53, 0.041);
+    background-color: rgba(202, 218, 53, 0.589);
     margin: 10px 0px 0px 0px; 
     padding: 1px;
 }
