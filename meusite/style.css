@@ -93,7 +93,7 @@ body {
 }
 
 #social:hover {
-    background-color: #11FA86;
+    background-color: #11fa8562;
     color: black;    
     border-radius: 10px;
 }
@@ -109,7 +109,7 @@ body {
 }
 
 .skills:hover {
-    background-color: #11FA86;
+    background-color: #11fa8562;
 }
 
 .skills > h2 {
