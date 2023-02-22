@@ -112,6 +112,10 @@ body {
     margin: 5px;  
 }
 
+.skills:hover {
+    background-color: rgb(201, 218, 53);
+}
+
 .skills > h2 {
     margin: 20px;
 }
@@ -122,12 +126,11 @@ body {
 }
 
 
-.skills:hover {
-    background-color: rgb(201, 218, 53);
-}
+
 
 .skills > a > img:hover {
     filter: brightness(100%);
+
 }
 
 
