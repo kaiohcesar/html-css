@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(2, 2, 2);
+    background-color: white;
     margin: 0px;
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 .menu {
-    background-color: rgba(202, 218, 53, 0.589);
+    background-image: linear-gradient(to bottom, #097a4170, white);
 }
 
 .menu > ul {
@@ -36,11 +36,10 @@ body {
 
 .menu > ul > li > a:hover {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    background-color: black;
-    border: 2px solid yellow;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.349);
+    color: black;
     border-radius: 10px;
-    color: yellow;
     font-weight: bolder;
 }
 
@@ -55,8 +54,8 @@ body {
 
 #social > ul > li > a:hover {
     font-weight: bolder;
-    background-color: black;
-    color: yellow;
+    background-color: rgba(255, 255, 255, 0.411);
+    color: black;
     margin: 0px 10px;
     padding: 5px;
     border-radius: 5px;
@@ -68,7 +67,7 @@ body {
 }
 
 .containermain {
-    background-color: rgba(202, 218, 53, 0.589);
+    background-image: linear-gradient(to top, #097a4170, #097a4170,  white);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-around;
@@ -80,7 +79,7 @@ body {
 }
 
 #social {
-    background-color:rgba(202, 218, 53, 0.884);
+    background-color:#0ec76a69;
     color: black;    
     border-radius: 10px;
     padding: 10px;
@@ -94,14 +93,14 @@ body {
 }
 
 #social:hover {
-    background-color: #cada35;
+    background-color: #11FA86;
     color: black;    
     border-radius: 10px;
 }
 
 .skills {
     text-align: center;
-    background-color:rgba(202, 218, 53, 0.884);
+    background-color:#0ec76a69;
     color: black;    
     border-radius: 10px;
     padding: 10px 12px;
@@ -110,7 +109,7 @@ body {
 }
 
 .skills:hover {
-    background-color: rgb(201, 218, 53);
+    background-color: #11FA86;
 }
 
 .skills > h2 {
@@ -134,16 +133,11 @@ body {
 .rodape {
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(0, 0, 0);
-    background-color: rgba(202, 218, 53, 0.589);
-    margin: 10px 0px 0px 0px; 
+    background-color: #097a4170;
+    margin:0px; 
     padding: 1px;
-}
 
-.rodape:hover {
-    color:rgb(0, 0, 0);
-    background-color: rgb(202, 218, 53);
-    
-}
+} 
 
 .rodape > p {
     font-weight: bolder;
